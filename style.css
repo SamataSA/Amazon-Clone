@@ -185,6 +185,12 @@ span{
 }
 
 .shop_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section{
     margin-top: 20px;
     background-color: rgb(255, 98, 42);
     width: 100%;
@@ -348,6 +354,93 @@ span{
     background-size: cover;
 }
 
+.box5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.arrive1{
+    background-image: url("home-arrival1.jpg");
+}
+
+.arrive2{
+    background-image: url("home-arrival2.jpg");
+}
+
+.arrive3{
+    background-image: url("home-arrival3.jpg");
+}
+
+.arrive4{
+    background-image: url("home-arrival4.jpg");
+}
+
+.box6{
+    background-size: cover;
+}
+
+.box6 h2{
+    margin-top: 24px;
+}
+
+.toy{
+    height: 220px;
+    width: 310px;
+    background-image: url("toy.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+.box7{
+    background-size: cover;
+}
+
+.box7 h2{
+    margin-top: 20px;
+}
+
+.gift{
+    height: 220px;
+    width: 310px;
+    background-image: url("gift.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+.box8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hom-ele1{
+    background-image: url("Home_ess1.jpg");
+}
+
+.hom-ele2{
+    background-image: url("Home_ess2.jpg");
+}
+
+.hom-ele3{
+    background-image: url("Home_ess3.jpg");
+}
+
+.hom-ele4{
+    background-image: url("Home_ess4.jpg");
+}
 .related-items{
     height: 280px;
     width: 96%;
@@ -630,7 +723,7 @@ span{
 }
 
 .foo a{
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: white;
     text-decoration: none;
     gap: 6px;
@@ -638,6 +731,59 @@ span{
 
 .foo a:hover{
     text-decoration: underline;
+}
+
+.country-curr-panel{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #273248;
+    gap: 8px;
+    color: white;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-size: cover;
+}
+
+.lang-curr-flag{
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 0.8rem;
+}
+
+.currency{
+    border-radius: 6px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language{
+    border-radius: 6px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language select{
+    color: white;
+    background-color: #273248;
+}
+
+.country{
+    border-radius: 6px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
 }
 
 footer{
