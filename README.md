@@ -1,4 +1,4 @@
-#Amazon Clone 🛒✨
+Amazon Clone 🛒✨
 
 A front-end clone of Amazon’s homepage built using only HTML and CSS.
 This project focuses on practicing layout design, responsiveness, and UI styling without any JavaScript functionality.
